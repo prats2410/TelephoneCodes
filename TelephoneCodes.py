@@ -1,0 +1,5 @@
+str1=input('Enter a telephone number: ')
+l=str1.split(sep='-')
+print('The country code is: ',l[0])
+print('The state code is: ',l[1])
+print('The phone number is: ',l[2])
